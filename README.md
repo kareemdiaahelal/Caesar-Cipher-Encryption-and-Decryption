@@ -1,7 +1,3 @@
-Here's a complete **README.md** file for your Caesar Cipher project. You can use this directly in your GitHub repository. 🚀  
-
----
-
 ### 📜 **README.md - Caesar Cipher Encryption & Decryption**  
 
 ```md
@@ -96,9 +92,9 @@ Result: hello
 ---
 
 ## 🔍 Cybersecurity Applications  
-- 🔹 **Introduction to cryptography & classical encryption**  
-- 🔹 **Understanding basic encryption techniques**  
-- 🔹 **Building foundational knowledge for cryptanalysis**  
+- **Introduction to cryptography & classical encryption**  
+- **Understanding basic encryption techniques**  
+- **Building foundational knowledge for cryptanalysis**  
 
 ---
 
