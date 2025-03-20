@@ -105,35 +105,5 @@ Result: hello
 ## 📜 License  
 This project is licensed under the **MIT License**. Feel free to use and modify it.  
 
-📌 **Author:** [Your Name]  
-📌 **GitHub Repo:** [Your Repository Link]  
-
----
-
-### 🚀 **Contribute & Improve**  
-Want to enhance this project? Feel free to fork the repo, submit pull requests, or suggest improvements!  
-
-```
-git fork
-git clone https://github.com/your-username/caesar-cipher.git
-git checkout -b feature-branch
-git commit -m "Added feature"
-git push origin feature-branch
-```
-👨‍💻 Happy coding! 🔐  
-
-```
-
----
-
-### ✅ **How to Use This**
-1. Copy and save the above text as `README.md` in your repository.  
-2. Push it to GitHub:  
-
-```bash
-git add README.md
-git commit -m "Added complete README file"
-git push origin main
-```
-
-Now, your **GitHub repo** will look professional, and users will understand how to use your project! 🚀🔥 Let me know if you need any modifications.
+📌 **Author:** Kareem Diaa  
+📌 **GitHub Repo:** https://github.com/kareemdiaahelal/PRODIGY_CS_01
