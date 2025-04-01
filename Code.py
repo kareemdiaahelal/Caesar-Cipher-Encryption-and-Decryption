@@ -1,7 +1,10 @@
 def caeser_cipher(text, shift, encrypt):
     result = ""
+    max_shift = 26 # As English letters are only 26
 
-    shift %= 26 # Normalize the shift key value (0 - 25)
+    shift %= max_shift # Normalize the shift key value (0 - 25)
+    if shift == 0:
+        shift = max_shift
 
     if not encrypt:
         shift = -shift 
@@ -24,10 +27,10 @@ def get_valid_shift():
             if 1 <= shift <= 26:
                 return shift
             else:
-                raise ValueError
+                raise ValueError("Shift must be between 1 and 26.")
 
-        except ValueError:
-            print("Please enter a valid integer for the shift key!")
+        except ValueError as e:
+            print(f"Invalid input! {e}")
 
 def get_operation():
     while True:
