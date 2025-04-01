@@ -17,17 +17,40 @@ def caeser_cipher(text, shift, encrypt):
     
     return result
 
+def get_valid_shift():
+    while True:
+        try:
+            shift = int(input("Enter the shift key (From 1 to 26): "))
+            if 1 <= shift <= 26:
+                return shift
+            else:
+                raise ValueError
 
-print("------ Welcome to Caesar Cipher Program! ------")
-print()
-print("Do you want to encrypt a plaintext or decrypt a ciphertext?")
-operation = input("1: Encrypt\n2: Decrypt\nChoice: ")
+        except ValueError:
+            print("Please enter a valid integer for the shift key!")
 
-encrypt = True
-if operation.strip() == "2":
-    encrypt = False
+def get_operation():
+    while True:
+        print("Do you want to encrypt a plaintext or decrypt a ciphertext?")
+        operation = input("1: Encrypt\n2: Decrypt\nChoice: ").strip()
 
-text = input("Enter the text you want to encrypt or decrypt: ")
-shift = int(input("Enter the shift key (From 1 to 26): "))
+        if operation == "1":
+            return True
+        elif operation == "2":
+            return False
+        else:
+            print("Invalid choice. Please choose 1 for Encrypt or 2 for Decrypt!")
 
-print("\nResult:", caeser_cipher(text, shift, encrypt))
+def main():
+    print("------ Welcome to Caesar Cipher Program! ------\n")
+
+    text = input("Enter the text you want to encrypt or decrypt: ")
+    shift = get_valid_shift()
+    encrypt = get_operation()
+
+
+    print("\nResult:", caeser_cipher(text, shift, encrypt))
+
+
+if __name__ == "__main__":
+    main()
