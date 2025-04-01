@@ -48,5 +48,4 @@ Result: Hello World
 
 - Python 3.x or higher
 
-## Author: [Kareem Diaa Helal]
-```
+## Author: Kareem Diaa Helal
