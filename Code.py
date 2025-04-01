@@ -17,7 +17,7 @@ def caeser_cipher(text, shift, encrypt):
             result += chr((ch_ASCII + shift) % 26 + start)
         else:
             result += ch
-    
+
     return result
 
 def get_valid_shift():
@@ -50,7 +50,6 @@ def main():
     text = input("Enter the text you want to encrypt or decrypt: ")
     shift = get_valid_shift()
     encrypt = get_operation()
-
 
     print("\nResult:", caeser_cipher(text, shift, encrypt))
 
