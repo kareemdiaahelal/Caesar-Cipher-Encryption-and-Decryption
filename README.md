@@ -48,7 +48,5 @@ Result: Hello World
 
 - Python 3.x or higher
 
-## Author
-
-[Kareem Diaa Helal](https://github.com/kareeemdiaahelal)
+## Author: [Kareem Diaa Helal]
 ```
