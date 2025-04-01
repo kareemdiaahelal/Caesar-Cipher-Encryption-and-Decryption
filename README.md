@@ -1,4 +1,3 @@
-```markdown
 # Caesar Cipher Program
 
 A Python implementation of the Caesar Cipher for encrypting and decrypting text using a shift key.
@@ -7,7 +6,7 @@ A Python implementation of the Caesar Cipher for encrypting and decrypting text 
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/kareeemdiaahelal/caesar-cipher.git
 cd caesar-cipher
 ```
@@ -48,6 +47,4 @@ Result: Hello World
 
 - Python 3.x or higher
 
-## Author
-
-[Kareem Diaa Helal](https://github.com/kareeemdiaahelal)
+## Author: [Kareem Diaa Helal](https://github.com/kareeemdiaahelal)
